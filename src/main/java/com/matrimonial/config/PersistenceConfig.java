@@ -57,9 +57,9 @@ public class PersistenceConfig {
 	    public DriverManagerDataSource dataSource() {
 	        DriverManagerDataSource dataSource = new DriverManagerDataSource();
 	        dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
-	        dataSource.setJdbcUrl("jdbc:mysql://localhost/matrimonial_db?autoReconnect=true");
-	        dataSource.setUser("root");
-	        dataSource.setPassword("");
+	        dataSource.setJdbcUrl("jdbc:mysql://sql12.freemysqlhosting.net/sql12180478");
+	        dataSource.setUser("sql12180478");
+	        dataSource.setPassword("kD7MGVQTuL");
 
 	        return dataSource;
 	    }
